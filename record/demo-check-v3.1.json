@@ -1,0 +1,115 @@
+{
+  "version": "3.1-record",
+  "scope": "local subpath",
+  "checks": [
+    "CPU practice starts only by button; entered name and keyboard controls work",
+    {
+      "first": {
+        "status": "finished",
+        "round": 8,
+        "scores": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "target": 6
+      },
+      "second": {
+        "status": "finished",
+        "round": 14,
+        "scores": [
+          6,
+          4,
+          0,
+          4
+        ],
+        "target": 6
+      },
+      "continuousResultMs": 5923
+    },
+    {
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "dimensions": {
+        "arena": 935.28125,
+        "settings": 691.1875,
+        "settingsHeight": 884.5,
+        "sideX": 1206.8125,
+        "arenaRight": 1070.046875,
+        "practiceHeight": 38,
+        "overflow": false
+      }
+    },
+    {
+      "size": {
+        "width": 1280,
+        "height": 900
+      },
+      "dimensions": {
+        "arena": 723.515625,
+        "settings": 460,
+        "settingsHeight": 704.5,
+        "sideX": 798,
+        "arenaRight": 762.75,
+        "practiceHeight": 38,
+        "overflow": false
+      }
+    }
+  ],
+  "requestPaths": [
+    "/battle-snake/",
+    "/battle-snake/page-theme.js",
+    "/battle-snake/style.css",
+    "/battle-snake/page-theme.css",
+    "/battle-snake/room-chat.css",
+    "/battle-snake/cpu-options.css",
+    "/battle-snake/app.js",
+    "/battle-snake/demo.css",
+    "/battle-snake/watch-loop.js",
+    "/battle-snake/skin-selection.js",
+    "/battle-snake/cpu-options.js",
+    "/battle-snake/core.js",
+    "/battle-snake/cpu.js",
+    "/battle-snake/block-outlines.js",
+    "/battle-snake/render.js",
+    "/battle-snake/controls.js",
+    "/battle-snake/audio.js",
+    "/battle-snake/sound-bank.js",
+    "/battle-snake/cpu-tactics.js",
+    "/battle-snake/step-mixer.js",
+    "/battle-snake/rim-bright-backgrounds.js",
+    "/battle-snake/world-backgrounds.js",
+    "/battle-snake/skin-themes.js",
+    "/battle-snake/backgrounds/sand.svg",
+    "/battle-snake/assets/random-skin.svg",
+    "/battle-snake/audio/step-03.wav",
+    "/battle-snake/audio/jump-07.wav",
+    "/battle-snake/audio/crash-07.wav",
+    "/battle-snake/audio/start-07.wav",
+    "/battle-snake/audio/step-07.wav",
+    "/battle-snake/audio/jump-08.wav",
+    "/battle-snake/audio/crash-13.wav",
+    "/battle-snake/audio/start-04.wav",
+    "/battle-snake/audio/step-12.wav",
+    "/battle-snake/audio/jump-03.wav",
+    "/battle-snake/audio/start-05.wav",
+    "/battle-snake/audio/step-02.wav",
+    "/battle-snake/audio/jump-12.wav",
+    "/battle-snake/audio/crash-06.wav",
+    "/battle-snake/audio/start-14.wav",
+    "/battle-snake/audio/jump-11.wav",
+    "/battle-snake/audio/crash-03.wav",
+    "/battle-snake/audio/step-05.wav",
+    "/battle-snake/audio/start-08.wav",
+    "/battle-snake/audio/jump-13.wav",
+    "/battle-snake/help.html",
+    "/battle-snake/help.css",
+    "/battle-snake/help.js",
+    "/battle-snake/assets/help/jump.svg"
+  ],
+  "errors": [],
+  "screenshotsCreated": 0
+}

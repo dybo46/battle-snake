@@ -1,0 +1,454 @@
+[
+  {
+    "path": "self-host/.env.example",
+    "sha256": "96fc727a20a09447b7c321bed1bc5efe8c43afb34a606c5692a6922bdb87925d"
+  },
+  {
+    "path": "self-host/compose.yaml",
+    "sha256": "8ddbd8687b48959783b11757bd0cda423ca813a181066308474c0664181957af"
+  },
+  {
+    "path": "self-host/lobby.mjs",
+    "sha256": "db28e2de5567e0f3fc3bce0e20f422bc337f2d88bd5688dfe58b7ffeb7f79c39"
+  },
+  {
+    "path": "self-host/package.json",
+    "sha256": "1e91e4650131f871e7032ed55cd61c98c0d8feff9863278b825503d11096499c"
+  },
+  {
+    "path": "self-host/server.mjs",
+    "sha256": "ebf09c7f723f05ddc86b91836d32e11c31fb95c97bd3ae627f4c7f25f52682f1"
+  },
+  {
+    "path": "self-host/data/random-names.json",
+    "sha256": "b33e45c8b286c6d680147e8b1465986c67c4e690d49bc4239ad0d531b6b1ca4d"
+  },
+  {
+    "path": "self-host/public/about.html",
+    "sha256": "9920c7876da307f5c5e694b2821000a7939c6dc1a7f06db08256b95c9949d82b"
+  },
+  {
+    "path": "self-host/public/app.js",
+    "sha256": "a61b905a2cbe38f5e0be7ba058e9a8810908e9f8e45453e1e5f422c39548e03c"
+  },
+  {
+    "path": "self-host/public/audio.js",
+    "sha256": "b8e9b83b279699d19f4d8b9f1a2009a888223f1b665fd9420a9791eaf4393181"
+  },
+  {
+    "path": "self-host/public/block-outlines.js",
+    "sha256": "c5e3d34c68dc714d3d7e11d1cc10086e8482de6c7f00981b1f864b6f3b453596"
+  },
+  {
+    "path": "self-host/public/controls.js",
+    "sha256": "b53d253130d697f9998bf31b3f58944a610e691fd9262c90dc383d500cfcbbf9"
+  },
+  {
+    "path": "self-host/public/core.js",
+    "sha256": "1cd08a3179a86a416e8ddb6f5f2a8a66cf9eddfb9caa6a7526bcd86a1de1f32a"
+  },
+  {
+    "path": "self-host/public/cpu-options.css",
+    "sha256": "6fce4d31d5c2823851d56a16e9b799b07fbd7074ab59aefa80d88b6c39dfdf6c"
+  },
+  {
+    "path": "self-host/public/cpu-options.js",
+    "sha256": "a12c81bca0f0aedad343ad67bcf60077284cfc4cf23ca7c872e3f8a6e2197a4c"
+  },
+  {
+    "path": "self-host/public/cpu-tactics.js",
+    "sha256": "e1ed936185b41a403ea5c77c81918407a31d9db249ff7a8746e53489ee1391fb"
+  },
+  {
+    "path": "self-host/public/cpu.js",
+    "sha256": "5a777e34675f7be48fa9489af4f54536f1a206332a535da74242588367aa8947"
+  },
+  {
+    "path": "self-host/public/help.css",
+    "sha256": "a82e851a9f8529b1e24eb7568fa345145e0b8dd747f11bb6c6831dfefa41d608"
+  },
+  {
+    "path": "self-host/public/help.html",
+    "sha256": "43a1147ae2475820c0585d2c3bacbace8484988b88149ce66a1270cfbf29fd52"
+  },
+  {
+    "path": "self-host/public/help.js",
+    "sha256": "193f652c4a4c09011620cce485752b02ce8062868091ac0f4cce6d109f0eaa74"
+  },
+  {
+    "path": "self-host/public/index.html",
+    "sha256": "1a790a1aa04016fc3562c854716a6bef9b905de26e4a1f1298a82f5c1ba145d9"
+  },
+  {
+    "path": "self-host/public/page-theme.css",
+    "sha256": "18800eb44f23ecb0ad29bb1e27f4c991bec025c6b2e67b4af0b94850fed939b0"
+  },
+  {
+    "path": "self-host/public/page-theme.js",
+    "sha256": "a80500e0654a44b50d913b2f3a940e92d3e223f0ac16eef51a207b631c610be7"
+  },
+  {
+    "path": "self-host/public/render.js",
+    "sha256": "027da3c85fc8ed944160b0275223d232a511589b255c3be638e04cf4e78dde6d"
+  },
+  {
+    "path": "self-host/public/rim-bright-backgrounds.js",
+    "sha256": "12d65bd86ac06440422717f98d94abbdd59a18c2335ab2ed633cb4b138353236"
+  },
+  {
+    "path": "self-host/public/room-chat.css",
+    "sha256": "1cce1d1b300432e57c8707aac54c48d60ff1e32f81a0f09aa163804df7724c8d"
+  },
+  {
+    "path": "self-host/public/room-chat.js",
+    "sha256": "eb6e09f844b4103d2b7e9cc9c32e3d8cd3d3640a281ad07c3e60eb07f806fd25"
+  },
+  {
+    "path": "self-host/public/skin-selection.js",
+    "sha256": "8a9ded09e1aaf0852d0241ee63fbe601a8d788b91efce98649e3c6a33eee0c0e"
+  },
+  {
+    "path": "self-host/public/skin-themes.js",
+    "sha256": "1e87211c46560478cdc82d15a0e893b015993758646021e9d5b00dac2cedbca9"
+  },
+  {
+    "path": "self-host/public/sound-bank.js",
+    "sha256": "01e66b6ae40c5b4014ef81793f46cd389d33a3168d170693583e8ca2cdecee2f"
+  },
+  {
+    "path": "self-host/public/step-mixer.js",
+    "sha256": "041d6fa31a175b51bc6daaf946c765607fafe619516fd9a1c04bd7fafd687a42"
+  },
+  {
+    "path": "self-host/public/style.css",
+    "sha256": "926e158fd4573182ee45f5060029589acf791e2f0f4a6e44cb53e73792e0f713"
+  },
+  {
+    "path": "self-host/public/watch-loop.js",
+    "sha256": "ec384182ea7ee0a5e4b295db277e2608bf881b627af7617eefa4cad3bf87b62f"
+  },
+  {
+    "path": "self-host/public/world-backgrounds.js",
+    "sha256": "74e706e2b52f8739298bc196fcb83def2549af1c48304429735e562608530877"
+  },
+  {
+    "path": "self-host/public/assets/random-skin.svg",
+    "sha256": "64b1564454da3d8c0a8f0390f50d6d481b2486fb08213b8b028ec30fbed4779e"
+  },
+  {
+    "path": "self-host/public/assets/help/jump.svg",
+    "sha256": "98afab5a7f6bcc0b1e3900a559ec06861071889991b85083d067c9130e9c73df"
+  },
+  {
+    "path": "self-host/public/audio/crash-01.wav",
+    "sha256": "03131b346627d6486cca7e5113af77f6f61a7104abc6359b9b199b0c510c116b"
+  },
+  {
+    "path": "self-host/public/audio/crash-02.wav",
+    "sha256": "4e4c303b8b3232041584a81ec666030d9a5c80cd70b01b521d6dcbf1700b2f76"
+  },
+  {
+    "path": "self-host/public/audio/crash-03.wav",
+    "sha256": "74c215015502216b39b9ad11262eb668ddb55f56d990b88789139cf0205ce57a"
+  },
+  {
+    "path": "self-host/public/audio/crash-04.wav",
+    "sha256": "3909cee91eb0240f5791526ccd11d948167ea4a674c301f2d8e23b6b856a65ff"
+  },
+  {
+    "path": "self-host/public/audio/crash-05.wav",
+    "sha256": "e9d11b98228aaf49bc184ab336f3001947e181b2bbf63af274a5027adbdb4436"
+  },
+  {
+    "path": "self-host/public/audio/crash-06.wav",
+    "sha256": "0e30ab28b4b4454aa8c6af9574b364e04cead3f365df410149076ebd1d793c58"
+  },
+  {
+    "path": "self-host/public/audio/crash-07.wav",
+    "sha256": "83aa4198d9f9b302b4ea44f457a96606e3c1148101d57a58bb3978cc5f9c7950"
+  },
+  {
+    "path": "self-host/public/audio/crash-08.wav",
+    "sha256": "ad58c6bceab8718b7322671d466d30a4d8fe9a1708ab203a2e2bd044ca01925c"
+  },
+  {
+    "path": "self-host/public/audio/crash-09.wav",
+    "sha256": "d80889a2f4394a2abb574a87a8610ea5e7b3eb1fb82956d8d5ed747cc7241255"
+  },
+  {
+    "path": "self-host/public/audio/crash-10.wav",
+    "sha256": "9e4b863c82d0a0cfea5c2021d97b98de9bf181ea03d7931380ac2802fb82de4f"
+  },
+  {
+    "path": "self-host/public/audio/crash-11.wav",
+    "sha256": "88afd9fde663d04ee213c765021cb12ab1bf03673b012b63be8efe2dbaa2cd89"
+  },
+  {
+    "path": "self-host/public/audio/crash-12.wav",
+    "sha256": "6116ebb4c2c6efd1446afe05108e36753db9dea320a4496a5b6824c94b7a629e"
+  },
+  {
+    "path": "self-host/public/audio/crash-13.wav",
+    "sha256": "f9bdd581b016d14912d02adf5fc30ad8f96960bb1ee72d5639379a4d5e0ce83a"
+  },
+  {
+    "path": "self-host/public/audio/crash-14.wav",
+    "sha256": "1812dfddd9588219eea2bcfd0365faed208be0b6a3bdfe453229ab48e18d093c"
+  },
+  {
+    "path": "self-host/public/audio/crash-15.wav",
+    "sha256": "875784126c10e29da1248bd0114bc9845dfe31dcd30742508d8d94c345e838d6"
+  },
+  {
+    "path": "self-host/public/audio/CREDITS.md",
+    "sha256": "d56ce6d31d20605efd4563b957c3aadff7e8af65836ceb6ad5c38a58f8136d1a"
+  },
+  {
+    "path": "self-host/public/audio/jump-01.wav",
+    "sha256": "06806c9eea83507aa505f47c1a27a2480163546a39bc2136af4a95b5cfb9b562"
+  },
+  {
+    "path": "self-host/public/audio/jump-02.wav",
+    "sha256": "a2769a2b537f9c4fb9ea1edf9352e5af8683e52aeab00ed013b2038978bcd317"
+  },
+  {
+    "path": "self-host/public/audio/jump-03.wav",
+    "sha256": "8251b929aef468c880b13b119818d6af079b8c68a6c90affbb83e298e483ff7f"
+  },
+  {
+    "path": "self-host/public/audio/jump-04.wav",
+    "sha256": "0c252c2ed1548d318c34765ead997d152753304098c15b21ec8e5cd7d204d04d"
+  },
+  {
+    "path": "self-host/public/audio/jump-05.wav",
+    "sha256": "9c313efdbd687a16e81c004751b0e9b2b201a045c32b273c9fc92892edfa8720"
+  },
+  {
+    "path": "self-host/public/audio/jump-06.wav",
+    "sha256": "6b7d38386d41a2674adea9fbd70dce9363de89b757c73be484b26d161a44350f"
+  },
+  {
+    "path": "self-host/public/audio/jump-07.wav",
+    "sha256": "8b5bb6c5d515c3a2da332ed2598002e0ed9545300e5626a94b987cc57ee4944d"
+  },
+  {
+    "path": "self-host/public/audio/jump-08.wav",
+    "sha256": "ef131a63263aac7d66d28b3ee23cb71bea2431fe063cfa28e20e84d1055aa8b3"
+  },
+  {
+    "path": "self-host/public/audio/jump-09.wav",
+    "sha256": "618a1be8656f6c2c19e0454ab36b965555343ee83cc0006ea8d67b2f9cc05537"
+  },
+  {
+    "path": "self-host/public/audio/jump-10.wav",
+    "sha256": "b461b42a4fff05193495541e628766391687088c7505e5588ed883cc2b2dc8ee"
+  },
+  {
+    "path": "self-host/public/audio/jump-11.wav",
+    "sha256": "c40f9a8cb5827a25b96ac2def6e5418bc0997aacedc88c03d4b5e1f9101a57b6"
+  },
+  {
+    "path": "self-host/public/audio/jump-12.wav",
+    "sha256": "a453c230444559c53c765c32001898395401eca96dffbfc612f9f2ac8c21e983"
+  },
+  {
+    "path": "self-host/public/audio/jump-13.wav",
+    "sha256": "91b36abb9f38367a64c48e65e2a4b03b6647791f294a574945e40a9b7debbbed"
+  },
+  {
+    "path": "self-host/public/audio/jump-14.wav",
+    "sha256": "942cf83bb73636f0bc917ad00ece67a7365c009eaf292296bd5b1df6ee13ced3"
+  },
+  {
+    "path": "self-host/public/audio/jump-15.wav",
+    "sha256": "02edd42443873109c0d085fb15d5355cb4ac023937c7ad1cfb68b5327e414637"
+  },
+  {
+    "path": "self-host/public/audio/manifest.json",
+    "sha256": "6e63ef9104070357378c2e7c171ec5a2c50c20881ed28db87117ea259e8f54bc"
+  },
+  {
+    "path": "self-host/public/audio/start-01.wav",
+    "sha256": "4206d1b47abd64b161d8181e3658b328058825003a75d4f2e338573f5677e734"
+  },
+  {
+    "path": "self-host/public/audio/start-02.wav",
+    "sha256": "38df074b3e7663d6a2bfbaa768ebf172ba3cc00abd1fbfe253bdde403100e2d6"
+  },
+  {
+    "path": "self-host/public/audio/start-03.wav",
+    "sha256": "e8b737bf327579d7f266d3158521304034390b42f02cce4a07096939eda7b4fe"
+  },
+  {
+    "path": "self-host/public/audio/start-04.wav",
+    "sha256": "07491762e7b3c700a754fb9e14bbca7ed91f11b788041929cf433a5d62a248d7"
+  },
+  {
+    "path": "self-host/public/audio/start-05.wav",
+    "sha256": "df2fd14edda7d1779fe442be1a079ec86c769403e4ca8d767cc47d199fcd5326"
+  },
+  {
+    "path": "self-host/public/audio/start-06.wav",
+    "sha256": "c1e116c01dd27c9ba94854852a2ff849149c6e4fcdb7bc65bd417f5ab9bcdd67"
+  },
+  {
+    "path": "self-host/public/audio/start-07.wav",
+    "sha256": "71ad4df7c0c550d03b1b1f1918b74c79bccaf6b39eff1cd09ae4bfac05733c5f"
+  },
+  {
+    "path": "self-host/public/audio/start-08.wav",
+    "sha256": "f80b96714ff4624454fa276b2b11279a7c02489cd6405573b0e77607f9543786"
+  },
+  {
+    "path": "self-host/public/audio/start-09.wav",
+    "sha256": "084b032639be06ba427d59f3bb5ecaf1be6beda6effc11266ff1c4df59ccebb2"
+  },
+  {
+    "path": "self-host/public/audio/start-10.wav",
+    "sha256": "42451cb533bf30aea17d888599f839c3ace73bd87fd7b7c70ba8883e47161e20"
+  },
+  {
+    "path": "self-host/public/audio/start-11.wav",
+    "sha256": "6dd060e28959538a5a990117aecf5d5f5cb28d982188980e65565b74316e83fa"
+  },
+  {
+    "path": "self-host/public/audio/start-12.wav",
+    "sha256": "d12813ff04ff68834f1ef67d421ba73caebac6eb6a86ffca7f928de10496813f"
+  },
+  {
+    "path": "self-host/public/audio/start-13.wav",
+    "sha256": "990423c4d5a3d4bc2588e91b40fd25c47d7be98b93568769bb0422550a2a0ddc"
+  },
+  {
+    "path": "self-host/public/audio/start-14.wav",
+    "sha256": "df36cd097a011790c8ceb179f357f2b870799dd265df0916a38d61451ba761c9"
+  },
+  {
+    "path": "self-host/public/audio/start-15.wav",
+    "sha256": "0f6b7f0f87962c7ce27ec5a09a4af0b896756c6728b19d03507980af2991f473"
+  },
+  {
+    "path": "self-host/public/audio/step-01.wav",
+    "sha256": "3d70a9467205b1489eb46957db1824e676eea01fcf1a679b96468d9eb278d818"
+  },
+  {
+    "path": "self-host/public/audio/step-02.wav",
+    "sha256": "527f219bf24df8922c3a671920f88ab43de153e89990d45ec6de764975540c41"
+  },
+  {
+    "path": "self-host/public/audio/step-03.wav",
+    "sha256": "866ce9523f9da094a043cd86337c2edc0287d22fa3bbb84a6464dbd7abd31809"
+  },
+  {
+    "path": "self-host/public/audio/step-04.wav",
+    "sha256": "a10de54a3b6c151eb5705aee585f14acf9292e5ce6537688870ff7237b1e81de"
+  },
+  {
+    "path": "self-host/public/audio/step-05.wav",
+    "sha256": "3a8ac83c467b7e85c1ecbf7920f5bb5bcbf2bd98a602acfeebfdae2e2371d27a"
+  },
+  {
+    "path": "self-host/public/audio/step-06.wav",
+    "sha256": "25a72e9ceef0aba0dc024f9059d7957cf9c575f646f6ba044935476b3e717a22"
+  },
+  {
+    "path": "self-host/public/audio/step-07.wav",
+    "sha256": "6bfc25acc39763cd9476cee058a330897e3737b0dcdb0e13fb0b8ea5d9a3c096"
+  },
+  {
+    "path": "self-host/public/audio/step-08.wav",
+    "sha256": "2276abe4a0405dfe95a90b70fe3d376a957a421230fb1c70a72e1b9fa346e73a"
+  },
+  {
+    "path": "self-host/public/audio/step-09.wav",
+    "sha256": "dcf712153fe379cf59b064eff868856c68724700983e2d2c86c4ec16fa67e67e"
+  },
+  {
+    "path": "self-host/public/audio/step-10.wav",
+    "sha256": "b6890ec34964af9c9d4293038e38fa67704595bd50b0c54ab842c4844b844592"
+  },
+  {
+    "path": "self-host/public/audio/step-11.wav",
+    "sha256": "593930b71b0811611f1a43deb53fdcc4e07d12631a07816f800a54edc22c5439"
+  },
+  {
+    "path": "self-host/public/audio/step-12.wav",
+    "sha256": "76c642f5f90ba2f8f46e7e639060a72976a4d0e5e122252774050ec750588761"
+  },
+  {
+    "path": "self-host/public/audio/step-13.wav",
+    "sha256": "8e4d5705691ebc6ac2c6b5d8f6b6dfc6a90467c89a5886c10dfada50bd7b4f88"
+  },
+  {
+    "path": "self-host/public/audio/step-14.wav",
+    "sha256": "258facfaa8010709a450cd3bdee22a22c1e9cb43f37fbe79acc999f0862644ab"
+  },
+  {
+    "path": "self-host/public/audio/step-15.wav",
+    "sha256": "8b1c58d8d3f9ccaf561a39ed308eb03d0a607fa30946e764e9bc45111746087f"
+  },
+  {
+    "path": "self-host/public/backgrounds/aqua.svg",
+    "sha256": "9c22685c1c1dc0f683052b281be1b3bfda3d111f471faf0018469c69af7af2f9"
+  },
+  {
+    "path": "self-host/public/backgrounds/clay.svg",
+    "sha256": "49ba809c5d39f55d8344d347bec675198a2b886f192f9c42c290d887a58ac7d7"
+  },
+  {
+    "path": "self-host/public/backgrounds/mist.svg",
+    "sha256": "61599b311e3441b81f70e76c85d3a9ad6de6ea8840c7150c1a8bffe7029808aa"
+  },
+  {
+    "path": "self-host/public/backgrounds/sand.svg",
+    "sha256": "14ef85d41f7f2dd3f44cc2e3b8843e118225342c423a4dba7c05bde6cb2fd29c"
+  },
+  {
+    "path": "self-host/public/backgrounds/wood.svg",
+    "sha256": "7daf45a6c7f99094a23a2336397a88e7bf7b6fcc118e764b6ac6b089d53229b8"
+  },
+  {
+    "path": "self-host/tests/anyone.test.mjs",
+    "sha256": "f74f738921b396d4fa7437f40ce430a2f8809f5205654ae9e04b81695a4bdcbe"
+  },
+  {
+    "path": "self-host/tests/audio.test.mjs",
+    "sha256": "b1c0df5a5a9c6fc6c5d8574ac29810c1eb65735b7a11ac3fa50e0ff056dcf1ee"
+  },
+  {
+    "path": "self-host/tests/core.test.mjs",
+    "sha256": "9932bd73887bade6cafa0a0ff72165691c2c8c3761889bcd3bd5510e05217a14"
+  },
+  {
+    "path": "self-host/tests/cpu-candidates.test.mjs",
+    "sha256": "752b819314e356dddf036bdba0e53d00037bdced7d7b3fc0fb723d6308677513"
+  },
+  {
+    "path": "self-host/tests/cpu-tactics.test.mjs",
+    "sha256": "96350e666d27e9379f16781da14bdcc5ad14d0b7b54e342847e01db38123284f"
+  },
+  {
+    "path": "self-host/tests/lobby.test.mjs",
+    "sha256": "d97ea537cb789def965935c9d6278afc5870e792f20fc548f8f44af25707d622"
+  },
+  {
+    "path": "self-host/tests/match-modes.test.mjs",
+    "sha256": "a27a00cd0f64e644e126c78206bfa1edb9b738bffd8219c01d1493e2476490dd"
+  },
+  {
+    "path": "self-host/tests/random-names.test.mjs",
+    "sha256": "23b47bfde97370c15af12ce17cac55c038bbf4aeac0b941d223b827c3ece8a5a"
+  },
+  {
+    "path": "self-host/tests/server.test.mjs",
+    "sha256": "b90fd1d6026b64cebf42f9be6a1e44eb2f4a2bfafb71d92ddb10f701f4af57c8"
+  },
+  {
+    "path": "self-host/tests/skin-selection.test.mjs",
+    "sha256": "d5f2c363f577fd4e441173a0899f0d10a347f5778fc88a941d96709f77e888c9"
+  },
+  {
+    "path": "self-host/tests/watch-loop.test.mjs",
+    "sha256": "e7756df085d2544b308c521eb143221f15f463d3bb2cca732ca33e7da2c29005"
+  }
+]

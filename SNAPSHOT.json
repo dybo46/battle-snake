@@ -1,0 +1,12 @@
+{
+  "sourceVersion": "3.1",
+  "recordVersion": "3.1-record",
+  "date": "2026-11-06",
+  "demo": "CPU only; no game API",
+  "selfHost": "6-person room; up to 4 human players per match",
+  "skins": 62,
+  "backgrounds": 81,
+  "sounds": 60,
+  "personalities": 15,
+  "screenshotsCreated": 0
+}

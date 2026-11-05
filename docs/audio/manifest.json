@@ -1,0 +1,1469 @@
+{
+  "date": "2026-11-01",
+  "version": "0.3",
+  "revision": 2,
+  "source": "本プロジェクトの自作合成音。既存ゲームの録音/抽出素材は使用していない。",
+  "sampleRate": 44100,
+  "channels": 1,
+  "bits": 16,
+  "sounds": [
+    {
+      "id": "step-01",
+      "kind": "step",
+      "name": "基本のキュイ",
+      "file": "step-01.wav",
+      "seconds": 0.07201814058956917,
+      "peak": 0.3183738589286804,
+      "rms": 0.18979723185747407,
+      "dc": -0.003280808609520766,
+      "bytes": 6396,
+      "sha256": "3d70a9467205b1489eb46957db1824e676eea01fcf1a679b96468d9eb278d818",
+      "recipe": {
+        "name": "基本のキュイ",
+        "wave": "pulse",
+        "curve": [
+          1250,
+          1550,
+          720
+        ],
+        "duration": 0.072,
+        "duty": 0.35,
+        "soft": 0.3
+      }
+    },
+    {
+      "id": "step-02",
+      "kind": "step",
+      "name": "澄んだキュイ",
+      "file": "step-02.wav",
+      "seconds": 0.07501133786848073,
+      "peak": 0.3501058518886566,
+      "rms": 0.1898622197112841,
+      "dc": -0.000010840851345282667,
+      "bytes": 6660,
+      "sha256": "527f219bf24df8922c3a671920f88ab43de153e89990d45ec6de764975540c41",
+      "recipe": {
+        "name": "澄んだキュイ",
+        "wave": "triangle",
+        "curve": [
+          1700,
+          1150,
+          760
+        ],
+        "duration": 0.075,
+        "bell": 0.22
+      }
+    },
+    {
+      "id": "step-03",
+      "kind": "step",
+      "name": "まるいクイ",
+      "file": "step-03.wav",
+      "seconds": 0.08501133786848072,
+      "peak": 0.25124046206474304,
+      "rms": 0.18988744727106627,
+      "dc": 0.000023748830883797156,
+      "bytes": 7542,
+      "sha256": "866ce9523f9da094a043cd86337c2edc0287d22fa3bbb84a6464dbd7abd31809",
+      "recipe": {
+        "name": "まるいクイ",
+        "wave": "fm",
+        "curve": [
+          920,
+          1370,
+          650
+        ],
+        "duration": 0.085,
+        "fm": 1.4,
+        "ratio": 2
+      }
+    },
+    {
+      "id": "step-04",
+      "kind": "step",
+      "name": "8ビット・キュッ",
+      "file": "step-04.wav",
+      "seconds": 0.055011337868480725,
+      "peak": 0.46415263414382935,
+      "rms": 0.1892541933726495,
+      "dc": -0.012129334437579149,
+      "bytes": 4896,
+      "sha256": "a10de54a3b6c151eb5705aee585f14acf9292e5ce6537688870ff7237b1e81de",
+      "recipe": {
+        "name": "8ビット・キュッ",
+        "wave": "pulse",
+        "curve": [
+          2100,
+          1500,
+          710
+        ],
+        "duration": 0.055,
+        "duty": 0.22,
+        "quantize": 5
+      }
+    },
+    {
+      "id": "step-05",
+      "kind": "step",
+      "name": "やさしいキュイ",
+      "file": "step-05.wav",
+      "seconds": 0.09301587301587301,
+      "peak": 0.3403737545013428,
+      "rms": 0.18988962649774008,
+      "dc": 0.00005340965917726022,
+      "bytes": 8248,
+      "sha256": "3a8ac83c467b7e85c1ecbf7920f5bb5bcbf2bd98a602acfeebfdae2e2371d27a",
+      "recipe": {
+        "name": "やさしいキュイ",
+        "wave": "triangle",
+        "curve": [
+          720,
+          1090,
+          580
+        ],
+        "duration": 0.093,
+        "soft": 0.7
+      }
+    },
+    {
+      "id": "step-06",
+      "kind": "step",
+      "name": "銀色のキュイ",
+      "file": "step-06.wav",
+      "seconds": 0.06700680272108843,
+      "peak": 0.3374706506729126,
+      "rms": 0.1898787957446654,
+      "dc": 0.00000919265693866746,
+      "bytes": 5954,
+      "sha256": "25a72e9ceef0aba0dc024f9059d7957cf9c575f646f6ba044935476b3e717a22",
+      "recipe": {
+        "name": "銀色のキュイ",
+        "wave": "fm",
+        "curve": [
+          1450,
+          1120,
+          820
+        ],
+        "duration": 0.067,
+        "fm": 1.9,
+        "ratio": 3,
+        "bell": 0.15
+      }
+    },
+    {
+      "id": "step-07",
+      "kind": "step",
+      "name": "キョイ・ボイス",
+      "file": "step-07.wav",
+      "seconds": 0.08700680272108843,
+      "peak": 0.4221183955669403,
+      "rms": 0.18986665402217087,
+      "dc": -0.0012286018248832177,
+      "bytes": 7718,
+      "sha256": "6bfc25acc39763cd9476cee058a330897e3737b0dcdb0e13fb0b8ea5d9a3c096",
+      "recipe": {
+        "name": "キョイ・ボイス",
+        "wave": "pulse",
+        "curve": [
+          510,
+          880,
+          430
+        ],
+        "duration": 0.087,
+        "duty": 0.4,
+        "formant": true
+      }
+    },
+    {
+      "id": "step-08",
+      "kind": "step",
+      "name": "ピコキュイ",
+      "file": "step-08.wav",
+      "seconds": 0.08501133786848072,
+      "peak": 0.3492692708969116,
+      "rms": 0.1899718569855756,
+      "dc": 0.000013960061598716206,
+      "bytes": 7542,
+      "sha256": "2276abe4a0405dfe95a90b70fe3d376a957a421230fb1c70a72e1b9fa346e73a",
+      "recipe": {
+        "name": "ピコキュイ",
+        "wave": "sine",
+        "curve": [
+          1320,
+          990,
+          740
+        ],
+        "duration": 0.085,
+        "quantize": 3,
+        "pulses": 2,
+        "bell": 0.25
+      }
+    },
+    {
+      "id": "step-09",
+      "kind": "step",
+      "name": "短いクィ",
+      "file": "step-09.wav",
+      "seconds": 0.043015873015873014,
+      "peak": 0.3948614001274109,
+      "rms": 0.1894688820198957,
+      "dc": -0.00985213642446328,
+      "bytes": 3838,
+      "sha256": "dcf712153fe379cf59b064eff868856c68724700983e2d2c86c4ec16fa67e67e",
+      "recipe": {
+        "name": "短いクィ",
+        "wave": "pulse",
+        "curve": [
+          1900,
+          1350,
+          950
+        ],
+        "duration": 0.043,
+        "duty": 0.28,
+        "soft": 0.25
+      }
+    },
+    {
+      "id": "step-10",
+      "kind": "step",
+      "name": "ゆるいキュウ",
+      "file": "step-10.wav",
+      "seconds": 0.09600907029478457,
+      "peak": 0.30174386501312256,
+      "rms": 0.18990173397367147,
+      "dc": -0.00011896292193449914,
+      "bytes": 8512,
+      "sha256": "b6890ec34964af9c9d4293038e38fa67704595bd50b0c54ab842c4844b844592",
+      "recipe": {
+        "name": "ゆるいキュウ",
+        "wave": "fm",
+        "curve": [
+          660,
+          1030,
+          490
+        ],
+        "duration": 0.096,
+        "fm": 1.1,
+        "ratio": 1.5
+      }
+    },
+    {
+      "id": "step-11",
+      "kind": "step",
+      "name": "明るいキュイ",
+      "file": "step-11.wav",
+      "seconds": 0.06800453514739228,
+      "peak": 0.4178078770637512,
+      "rms": 0.18982692383558705,
+      "dc": 0.000018908386124593402,
+      "bytes": 6042,
+      "sha256": "593930b71b0811611f1a43deb53fdcc4e07d12631a07816f800a54edc22c5439",
+      "recipe": {
+        "name": "明るいキュイ",
+        "wave": "triangle",
+        "curve": [
+          1370,
+          1660,
+          930
+        ],
+        "duration": 0.068,
+        "bell": 0.45
+      }
+    },
+    {
+      "id": "step-12",
+      "kind": "step",
+      "name": "水玉クイ",
+      "file": "step-12.wav",
+      "seconds": 0.0810204081632653,
+      "peak": 0.27587905526161194,
+      "rms": 0.1898687196789387,
+      "dc": 0.000022869665715255905,
+      "bytes": 7190,
+      "sha256": "76c642f5f90ba2f8f46e7e639060a72976a4d0e5e122252774050ec750588761",
+      "recipe": {
+        "name": "水玉クイ",
+        "wave": "sine",
+        "curve": [
+          1620,
+          1050,
+          620
+        ],
+        "duration": 0.081,
+        "fm": 0.45,
+        "ratio": 2
+      }
+    },
+    {
+      "id": "step-13",
+      "kind": "step",
+      "name": "デジタル・キキ",
+      "file": "step-13.wav",
+      "seconds": 0.07501133786848073,
+      "peak": 0.2489093840122223,
+      "rms": 0.18996202922202587,
+      "dc": 0.000010434464805864478,
+      "bytes": 6660,
+      "sha256": "8e4d5705691ebc6ac2c6b5d8f6b6dfc6a90467c89a5886c10dfada50bd7b4f88",
+      "recipe": {
+        "name": "デジタル・キキ",
+        "wave": "pulse",
+        "curve": [
+          1500,
+          1125,
+          844
+        ],
+        "duration": 0.075,
+        "duty": 0.5,
+        "quantize": 3,
+        "pulses": 2
+      }
+    },
+    {
+      "id": "step-14",
+      "kind": "step",
+      "name": "シンセ・キュイ",
+      "file": "step-14.wav",
+      "seconds": 0.08900226757369614,
+      "peak": 0.3163250684738159,
+      "rms": 0.18989237915798282,
+      "dc": 0.00002770277221043795,
+      "bytes": 7894,
+      "sha256": "258facfaa8010709a450cd3bdee22a22c1e9cb43f37fbe79acc999f0862644ab",
+      "recipe": {
+        "name": "シンセ・キュイ",
+        "wave": "fm",
+        "curve": [
+          530,
+          980,
+          640
+        ],
+        "duration": 0.089,
+        "fm": 2.6,
+        "ratio": 3.5,
+        "soft": 0.2
+      }
+    },
+    {
+      "id": "step-15",
+      "kind": "step",
+      "name": "低めのクイ",
+      "file": "step-15.wav",
+      "seconds": 0.09201814058956916,
+      "peak": 0.33583274483680725,
+      "rms": 0.18989155757075918,
+      "dc": 0.00002249695231113813,
+      "bytes": 8160,
+      "sha256": "8b1c58d8d3f9ccaf561a39ed308eb03d0a607fa30946e764e9bc45111746087f",
+      "recipe": {
+        "name": "低めのクイ",
+        "wave": "triangle",
+        "curve": [
+          750,
+          610,
+          390
+        ],
+        "duration": 0.092,
+        "fm": 0.3,
+        "ratio": 2,
+        "soft": 0.4
+      }
+    },
+    {
+      "id": "jump-01",
+      "kind": "jump",
+      "name": "基本のピュイ",
+      "file": "jump-01.wav",
+      "seconds": 0.24,
+      "peak": 0.42106056213378906,
+      "rms": 0.18996656000610093,
+      "dc": -0.00010599340252196125,
+      "bytes": 21212,
+      "sha256": "06806c9eea83507aa505f47c1a27a2480163546a39bc2136af4a95b5cfb9b562",
+      "recipe": {
+        "name": "基本のピュイ",
+        "wave": "triangle",
+        "curve": [
+          420,
+          1150,
+          1750
+        ],
+        "duration": 0.24,
+        "bell": 0.2
+      }
+    },
+    {
+      "id": "jump-02",
+      "kind": "jump",
+      "name": "軽いピョン",
+      "file": "jump-02.wav",
+      "seconds": 0.18,
+      "peak": 0.35228636860847473,
+      "rms": 0.1899134803661342,
+      "dc": -0.0017785378140645438,
+      "bytes": 15920,
+      "sha256": "a2769a2b537f9c4fb9ea1edf9352e5af8683e52aeab00ed013b2038978bcd317",
+      "recipe": {
+        "name": "軽いピョン",
+        "wave": "pulse",
+        "curve": [
+          430,
+          1450,
+          1020
+        ],
+        "duration": 0.18,
+        "duty": 0.3,
+        "soft": 0.25
+      }
+    },
+    {
+      "id": "jump-03",
+      "kind": "jump",
+      "name": "なめらかシューイ",
+      "file": "jump-03.wav",
+      "seconds": 0.3,
+      "peak": 0.2954147160053253,
+      "rms": 0.18996119798490957,
+      "dc": -0.00011618174090728327,
+      "bytes": 26504,
+      "sha256": "8251b929aef468c880b13b119818d6af079b8c68a6c90affbb83e298e483ff7f",
+      "recipe": {
+        "name": "なめらかシューイ",
+        "wave": "sine",
+        "curve": [
+          350,
+          850,
+          2150
+        ],
+        "duration": 0.3,
+        "fm": 0.6,
+        "ratio": 2
+      }
+    },
+    {
+      "id": "jump-04",
+      "kind": "jump",
+      "name": "8ビット・ピョイ",
+      "file": "jump-04.wav",
+      "seconds": 0.21,
+      "peak": 0.3955013155937195,
+      "rms": 0.18988819494241668,
+      "dc": -0.0021929952946944495,
+      "bytes": 18566,
+      "sha256": "0c252c2ed1548d318c34765ead997d152753304098c15b21ec8e5cd7d204d04d",
+      "recipe": {
+        "name": "8ビット・ピョイ",
+        "wave": "pulse",
+        "curve": [
+          390,
+          850,
+          1850
+        ],
+        "duration": 0.21,
+        "quantize": 8,
+        "duty": 0.25
+      }
+    },
+    {
+      "id": "jump-05",
+      "kind": "jump",
+      "name": "ふわっとピュウ",
+      "file": "jump-05.wav",
+      "seconds": 0.38,
+      "peak": 0.38676390051841736,
+      "rms": 0.18996257835754,
+      "dc": -0.00009414849923773022,
+      "bytes": 33560,
+      "sha256": "9c313efdbd687a16e81c004751b0e9b2b201a045c32b273c9fc92892edfa8720",
+      "recipe": {
+        "name": "ふわっとピュウ",
+        "wave": "triangle",
+        "curve": [
+          310,
+          1000,
+          780
+        ],
+        "duration": 0.38,
+        "soft": 0.65,
+        "vibrato": 7
+      }
+    },
+    {
+      "id": "jump-06",
+      "kind": "jump",
+      "name": "メタリック・ピュイ",
+      "file": "jump-06.wav",
+      "seconds": 0.25,
+      "peak": 0.3571203947067261,
+      "rms": 0.1899518384731941,
+      "dc": 0.000017089232244204664,
+      "bytes": 22094,
+      "sha256": "6b7d38386d41a2674adea9fbd70dce9363de89b757c73be484b26d161a44350f",
+      "recipe": {
+        "name": "メタリック・ピュイ",
+        "wave": "fm",
+        "curve": [
+          430,
+          1320,
+          1900
+        ],
+        "duration": 0.25,
+        "fm": 2.8,
+        "ratio": 3.5
+      }
+    },
+    {
+      "id": "jump-07",
+      "kind": "jump",
+      "name": "ぷるんジャンプ",
+      "file": "jump-07.wav",
+      "seconds": 0.32,
+      "peak": 0.2896937429904938,
+      "rms": 0.18996660936687576,
+      "dc": -0.00010734958526546141,
+      "bytes": 28268,
+      "sha256": "8b5bb6c5d515c3a2da332ed2598002e0ed9545300e5626a94b987cc57ee4944d",
+      "recipe": {
+        "name": "ぷるんジャンプ",
+        "wave": "fm",
+        "curve": [
+          280,
+          1260,
+          560
+        ],
+        "duration": 0.32,
+        "fm": 1.3,
+        "ratio": 2,
+        "vibrato": 14
+      }
+    },
+    {
+      "id": "jump-08",
+      "kind": "jump",
+      "name": "高いピュイ",
+      "file": "jump-08.wav",
+      "seconds": 0.2,
+      "peak": 0.4148009419441223,
+      "rms": 0.18994308554593844,
+      "dc": 0.00001397740567115652,
+      "bytes": 17684,
+      "sha256": "ef131a63263aac7d66d28b3ee23cb71bea2431fe063cfa28e20e84d1055aa8b3",
+      "recipe": {
+        "name": "高いピュイ",
+        "wave": "sine",
+        "curve": [
+          880,
+          1550,
+          2800
+        ],
+        "duration": 0.2,
+        "bell": 0.4
+      }
+    },
+    {
+      "id": "jump-09",
+      "kind": "jump",
+      "name": "低いポヨン",
+      "file": "jump-09.wav",
+      "seconds": 0.33,
+      "peak": 0.374082088470459,
+      "rms": 0.18995492248725604,
+      "dc": -0.00008330255572024431,
+      "bytes": 29150,
+      "sha256": "618a1be8656f6c2c19e0454ab36b965555343ee83cc0006ea8d67b2f9cc05537",
+      "recipe": {
+        "name": "低いポヨン",
+        "wave": "triangle",
+        "curve": [
+          190,
+          720,
+          360
+        ],
+        "duration": 0.33,
+        "fm": 0.8,
+        "ratio": 1.5
+      }
+    },
+    {
+      "id": "jump-10",
+      "kind": "jump",
+      "name": "二段ピピュイ",
+      "file": "jump-10.wav",
+      "seconds": 0.29,
+      "peak": 0.3045833110809326,
+      "rms": 0.18999599417359828,
+      "dc": -0.0003760707522876405,
+      "bytes": 25622,
+      "sha256": "b461b42a4fff05193495541e628766391687088c7505e5588ed883cc2b2dc8ee",
+      "recipe": {
+        "name": "二段ピピュイ",
+        "wave": "pulse",
+        "curve": [
+          480,
+          960,
+          1920
+        ],
+        "duration": 0.29,
+        "quantize": 3,
+        "pulses": 2,
+        "duty": 0.4
+      }
+    },
+    {
+      "id": "jump-11",
+      "kind": "jump",
+      "name": "小さなワープ",
+      "file": "jump-11.wav",
+      "seconds": 0.31,
+      "peak": 0.35423168540000916,
+      "rms": 0.18996736416929608,
+      "dc": 0.00000622706776178739,
+      "bytes": 27386,
+      "sha256": "c40f9a8cb5827a25b96ac2def6e5418bc0997aacedc88c03d4b5e1f9101a57b6",
+      "recipe": {
+        "name": "小さなワープ",
+        "wave": "fm",
+        "curve": [
+          340,
+          1780,
+          980
+        ],
+        "duration": 0.31,
+        "fm": 3.2,
+        "ratio": 2.1,
+        "vibrato": 9
+      }
+    },
+    {
+      "id": "jump-12",
+      "kind": "jump",
+      "name": "ガラスのピュイ",
+      "file": "jump-12.wav",
+      "seconds": 0.37,
+      "peak": 0.550000011920929,
+      "rms": 0.17259390270682845,
+      "dc": -0.000005573447825830543,
+      "bytes": 32678,
+      "sha256": "a453c230444559c53c765c32001898395401eca96dffbfc612f9f2ac8c21e983",
+      "recipe": {
+        "name": "ガラスのピュイ",
+        "wave": "sine",
+        "curve": [
+          630,
+          1420,
+          2320
+        ],
+        "duration": 0.28,
+        "bell": 0.8,
+        "echo": 0.13
+      }
+    },
+    {
+      "id": "jump-13",
+      "kind": "jump",
+      "name": "パルス・シュイ",
+      "file": "jump-13.wav",
+      "seconds": 0.27,
+      "peak": 0.5162055492401123,
+      "rms": 0.1898787700367044,
+      "dc": -0.002337937652550484,
+      "bytes": 23858,
+      "sha256": "91b36abb9f38367a64c48e65e2a4b03b6647791f294a574945e40a9b7debbbed",
+      "recipe": {
+        "name": "パルス・シュイ",
+        "wave": "pulse",
+        "curve": [
+          320,
+          900,
+          1520
+        ],
+        "duration": 0.27,
+        "duty": 0.17,
+        "soft": 0.25
+      }
+    },
+    {
+      "id": "jump-14",
+      "kind": "jump",
+      "name": "短いピッ",
+      "file": "jump-14.wav",
+      "seconds": 0.1350113378684807,
+      "peak": 0.41546303033828735,
+      "rms": 0.1899276865472052,
+      "dc": 0.000028696371000585702,
+      "bytes": 11952,
+      "sha256": "942cf83bb73636f0bc917ad00ece67a7365c009eaf292296bd5b1df6ee13ced3",
+      "recipe": {
+        "name": "短いピッ",
+        "wave": "triangle",
+        "curve": [
+          750,
+          1400,
+          1850
+        ],
+        "duration": 0.135,
+        "bell": 0.25
+      }
+    },
+    {
+      "id": "jump-15",
+      "kind": "jump",
+      "name": "レトロ・レーザー",
+      "file": "jump-15.wav",
+      "seconds": 0.44,
+      "peak": 0.3275071382522583,
+      "rms": 0.189970987016915,
+      "dc": -0.00025153734756121313,
+      "bytes": 38852,
+      "sha256": "02edd42443873109c0d085fb15d5355cb4ac023937c7ad1cfb68b5327e414637",
+      "recipe": {
+        "name": "レトロ・レーザー",
+        "wave": "pulse",
+        "curve": [
+          280,
+          1200,
+          2450
+        ],
+        "duration": 0.35,
+        "duty": 0.45,
+        "quantize": 12,
+        "echo": 0.08
+      }
+    },
+    {
+      "id": "crash-01",
+      "kind": "crash",
+      "name": "基本のピキュ",
+      "file": "crash-01.wav",
+      "seconds": 0.16,
+      "peak": 0.4116476774215698,
+      "rms": 0.18988664929385338,
+      "dc": -0.0015545817225669372,
+      "bytes": 14156,
+      "sha256": "03131b346627d6486cca7e5113af77f6f61a7104abc6359b9b199b0c510c116b",
+      "recipe": {
+        "name": "基本のピキュ",
+        "wave": "pulse",
+        "curve": [
+          1450,
+          610,
+          170
+        ],
+        "duration": 0.16,
+        "duty": 0.3,
+        "noise": 0.08
+      }
+    },
+    {
+      "id": "crash-02",
+      "kind": "crash",
+      "name": "電子ポン",
+      "file": "crash-02.wav",
+      "seconds": 0.18,
+      "peak": 0.3205658197402954,
+      "rms": 0.18992575569097123,
+      "dc": -0.00014978634709787052,
+      "bytes": 15920,
+      "sha256": "4e4c303b8b3232041584a81ec666030d9a5c80cd70b01b521d6dcbf1700b2f76",
+      "recipe": {
+        "name": "電子ポン",
+        "wave": "sine",
+        "curve": [
+          720,
+          260,
+          110
+        ],
+        "duration": 0.18,
+        "fm": 1.5,
+        "ratio": 2
+      }
+    },
+    {
+      "id": "crash-03",
+      "kind": "crash",
+      "name": "8ビット・プギュ",
+      "file": "crash-03.wav",
+      "seconds": 0.2,
+      "peak": 0.363552987575531,
+      "rms": 0.18990451900074873,
+      "dc": -0.0005912278762404852,
+      "bytes": 17684,
+      "sha256": "74c215015502216b39b9ad11262eb668ddb55f56d990b88789139cf0205ce57a",
+      "recipe": {
+        "name": "8ビット・プギュ",
+        "wave": "pulse",
+        "curve": [
+          1180,
+          440,
+          90
+        ],
+        "duration": 0.2,
+        "quantize": 8,
+        "duty": 0.4,
+        "noise": 0.12
+      }
+    },
+    {
+      "id": "crash-04",
+      "kind": "crash",
+      "name": "短いビッ",
+      "file": "crash-04.wav",
+      "seconds": 0.09,
+      "peak": 0.4719231426715851,
+      "rms": 0.1896466857930997,
+      "dc": -0.005949885886004648,
+      "bytes": 7982,
+      "sha256": "3909cee91eb0240f5791526ccd11d948167ea4a674c301f2d8e23b6b856a65ff",
+      "recipe": {
+        "name": "短いビッ",
+        "wave": "pulse",
+        "curve": [
+          1800,
+          750,
+          230
+        ],
+        "duration": 0.09,
+        "duty": 0.2,
+        "soft": 0.15
+      }
+    },
+    {
+      "id": "crash-05",
+      "kind": "crash",
+      "name": "ぷちゅん",
+      "file": "crash-05.wav",
+      "seconds": 0.24,
+      "peak": 0.44331398606300354,
+      "rms": 0.18991425541815304,
+      "dc": 0.00005091625627333823,
+      "bytes": 21212,
+      "sha256": "e9d11b98228aaf49bc184ab336f3001947e181b2bbf63af274a5027adbdb4436",
+      "recipe": {
+        "name": "ぷちゅん",
+        "wave": "fm",
+        "curve": [
+          520,
+          800,
+          95
+        ],
+        "duration": 0.24,
+        "fm": 2,
+        "ratio": 1.5
+      }
+    },
+    {
+      "id": "crash-06",
+      "kind": "crash",
+      "name": "キュプ",
+      "file": "crash-06.wav",
+      "seconds": 0.14002267573696145,
+      "peak": 0.4327400326728821,
+      "rms": 0.18990403226520636,
+      "dc": 0.000027400154520913238,
+      "bytes": 12394,
+      "sha256": "0e30ab28b4b4454aa8c6af9574b364e04cead3f365df410149076ebd1d793c58",
+      "recipe": {
+        "name": "キュプ",
+        "wave": "triangle",
+        "curve": [
+          1650,
+          580,
+          190
+        ],
+        "duration": 0.14,
+        "bell": 0.2
+      }
+    },
+    {
+      "id": "crash-07",
+      "kind": "crash",
+      "name": "やわらかポフ",
+      "file": "crash-07.wav",
+      "seconds": 0.19,
+      "peak": 0.3993670344352722,
+      "rms": 0.18992002641590494,
+      "dc": -0.00044567652454390895,
+      "bytes": 16802,
+      "sha256": "83aa4198d9f9b302b4ea44f457a96606e3c1148101d57a58bb3978cc5f9c7950",
+      "recipe": {
+        "name": "やわらかポフ",
+        "wave": "sine",
+        "curve": [
+          380,
+          220,
+          85
+        ],
+        "duration": 0.19,
+        "noise": 0.06,
+        "soft": 0.6
+      }
+    },
+    {
+      "id": "crash-08",
+      "kind": "crash",
+      "name": "デジタル・パピ",
+      "file": "crash-08.wav",
+      "seconds": 0.17002267573696145,
+      "peak": 0.3910970389842987,
+      "rms": 0.18998137699063486,
+      "dc": -0.0009408604211947172,
+      "bytes": 15040,
+      "sha256": "ad58c6bceab8718b7322671d466d30a4d8fe9a1708ab203a2e2bd044ca01925c",
+      "recipe": {
+        "name": "デジタル・パピ",
+        "wave": "pulse",
+        "curve": [
+          1400,
+          700,
+          350
+        ],
+        "duration": 0.17,
+        "pulses": 2,
+        "quantize": 3,
+        "duty": 0.35
+      }
+    },
+    {
+      "id": "crash-09",
+      "kind": "crash",
+      "name": "ロボット・ピギュ",
+      "file": "crash-09.wav",
+      "seconds": 0.23,
+      "peak": 0.4533511698246002,
+      "rms": 0.1899421671924808,
+      "dc": 0.000013774014095519137,
+      "bytes": 20330,
+      "sha256": "d80889a2f4394a2abb574a87a8610ea5e7b3eb1fb82956d8d5ed747cc7241255",
+      "recipe": {
+        "name": "ロボット・ピギュ",
+        "wave": "fm",
+        "curve": [
+          850,
+          520,
+          130
+        ],
+        "duration": 0.23,
+        "fm": 3.4,
+        "ratio": 2.5
+      }
+    },
+    {
+      "id": "crash-10",
+      "kind": "crash",
+      "name": "丸いプイッ",
+      "file": "crash-10.wav",
+      "seconds": 0.18,
+      "peak": 0.44427943229675293,
+      "rms": 0.18991435435763668,
+      "dc": 0.00014297813772127743,
+      "bytes": 15920,
+      "sha256": "9e4b863c82d0a0cfea5c2021d97b98de9bf181ea03d7931380ac2802fb82de4f",
+      "recipe": {
+        "name": "丸いプイッ",
+        "wave": "triangle",
+        "curve": [
+          980,
+          1210,
+          140
+        ],
+        "duration": 0.18,
+        "fm": 0.6,
+        "ratio": 2
+      }
+    },
+    {
+      "id": "crash-11",
+      "kind": "crash",
+      "name": "高いピチュ",
+      "file": "crash-11.wav",
+      "seconds": 0.12,
+      "peak": 0.43400338292121887,
+      "rms": 0.18989860958054197,
+      "dc": -0.000010215615271574838,
+      "bytes": 10628,
+      "sha256": "88afd9fde663d04ee213c765021cb12ab1bf03673b012b63be8efe2dbaa2cd89",
+      "recipe": {
+        "name": "高いピチュ",
+        "wave": "sine",
+        "curve": [
+          2300,
+          1000,
+          330
+        ],
+        "duration": 0.12,
+        "bell": 0.65
+      }
+    },
+    {
+      "id": "crash-12",
+      "kind": "crash",
+      "name": "低いビュン",
+      "file": "crash-12.wav",
+      "seconds": 0.25,
+      "peak": 0.3588975965976715,
+      "rms": 0.1899268862305603,
+      "dc": -0.00022186694136538802,
+      "bytes": 22094,
+      "sha256": "6116ebb4c2c6efd1446afe05108e36753db9dea320a4496a5b6824c94b7a629e",
+      "recipe": {
+        "name": "低いビュン",
+        "wave": "pulse",
+        "curve": [
+          620,
+          290,
+          75
+        ],
+        "duration": 0.25,
+        "duty": 0.5,
+        "soft": 0.3
+      }
+    },
+    {
+      "id": "crash-13",
+      "kind": "crash",
+      "name": "電子スパーク",
+      "file": "crash-13.wav",
+      "seconds": 0.15501133786848073,
+      "peak": 0.35966190695762634,
+      "rms": 0.1899447313013486,
+      "dc": 0.00008369214210995703,
+      "bytes": 13716,
+      "sha256": "f9bdd581b016d14912d02adf5fc30ad8f96960bb1ee72d5639379a4d5e0ce83a",
+      "recipe": {
+        "name": "電子スパーク",
+        "wave": "fm",
+        "curve": [
+          1750,
+          850,
+          180
+        ],
+        "duration": 0.155,
+        "fm": 3.8,
+        "ratio": 4,
+        "noise": 0.1
+      }
+    },
+    {
+      "id": "crash-14",
+      "kind": "crash",
+      "name": "階段ピポポ",
+      "file": "crash-14.wav",
+      "seconds": 0.27,
+      "peak": 0.5076932311058044,
+      "rms": 0.189996346375447,
+      "dc": 0.000016142612402976792,
+      "bytes": 23858,
+      "sha256": "1812dfddd9588219eea2bcfd0365faed208be0b6a3bdfe453229ab48e18d093c",
+      "recipe": {
+        "name": "階段ピポポ",
+        "wave": "triangle",
+        "curve": [
+          1320,
+          660,
+          165
+        ],
+        "duration": 0.27,
+        "quantize": 5,
+        "pulses": 3
+      }
+    },
+    {
+      "id": "crash-15",
+      "kind": "crash",
+      "name": "ゲーム・プシュ",
+      "file": "crash-15.wav",
+      "seconds": 0.2950113378684807,
+      "peak": 0.550000011920929,
+      "rms": 0.14601762024851855,
+      "dc": -0.0010526928654607073,
+      "bytes": 26064,
+      "sha256": "875784126c10e29da1248bd0114bc9845dfe31dcd30742508d8d94c345e838d6",
+      "recipe": {
+        "name": "ゲーム・プシュ",
+        "wave": "pulse",
+        "curve": [
+          1040,
+          330,
+          120
+        ],
+        "duration": 0.205,
+        "duty": 0.18,
+        "noise": 0.13,
+        "echo": 0.08
+      }
+    },
+    {
+      "id": "start-01",
+      "kind": "start",
+      "name": "基本のパン",
+      "file": "start-01.wav",
+      "seconds": 0.14002267573696145,
+      "peak": 0.550000011920929,
+      "rms": 0.15154119982862796,
+      "dc": -0.00001963239837025937,
+      "bytes": 12394,
+      "sha256": "4206d1b47abd64b161d8181e3658b328058825003a75d4f2e338573f5677e734",
+      "recipe": {
+        "name": "基本のパン",
+        "wave": "triangle",
+        "curve": [
+          1200,
+          1080,
+          1080
+        ],
+        "duration": 0.14,
+        "noise": 0.13,
+        "bell": 0.3,
+        "decay": 15
+      }
+    },
+    {
+      "id": "start-02",
+      "kind": "start",
+      "name": "澄んだピン",
+      "file": "start-02.wav",
+      "seconds": 0.32,
+      "peak": 0.550000011920929,
+      "rms": 0.10094247760939032,
+      "dc": -0.000001979121440686079,
+      "bytes": 28268,
+      "sha256": "38df074b3e7663d6a2bfbaa768ebf172ba3cc00abd1fbfe253bdde403100e2d6",
+      "recipe": {
+        "name": "澄んだピン",
+        "wave": "sine",
+        "curve": [
+          1760,
+          1760,
+          1760
+        ],
+        "duration": 0.32,
+        "bell": 0.8,
+        "decay": 12
+      }
+    },
+    {
+      "id": "start-03",
+      "kind": "start",
+      "name": "レトロ・ピッ",
+      "file": "start-03.wav",
+      "seconds": 0.10501133786848073,
+      "peak": 0.4275496006011963,
+      "rms": 0.18980922983055734,
+      "dc": -0.002084657461355087,
+      "bytes": 9306,
+      "sha256": "e8b737bf327579d7f266d3158521304034390b42f02cce4a07096939eda7b4fe",
+      "recipe": {
+        "name": "レトロ・ピッ",
+        "wave": "pulse",
+        "curve": [
+          1320,
+          1320,
+          1320
+        ],
+        "duration": 0.105,
+        "duty": 0.3,
+        "soft": 0.3
+      }
+    },
+    {
+      "id": "start-04",
+      "kind": "start",
+      "name": "ポン！",
+      "file": "start-04.wav",
+      "seconds": 0.19,
+      "peak": 0.4819260239601135,
+      "rms": 0.18984553473440588,
+      "dc": 0.000003601207188847762,
+      "bytes": 16802,
+      "sha256": "07491762e7b3c700a754fb9e14bbca7ed91f11b788041929cf433a5d62a248d7",
+      "recipe": {
+        "name": "ポン！",
+        "wave": "fm",
+        "curve": [
+          660,
+          880,
+          880
+        ],
+        "duration": 0.19,
+        "fm": 1.5,
+        "ratio": 2,
+        "decay": 13
+      }
+    },
+    {
+      "id": "start-05",
+      "kind": "start",
+      "name": "二音のピポン",
+      "file": "start-05.wav",
+      "seconds": 0.28002267573696143,
+      "peak": 0.550000011920929,
+      "rms": 0.14822540181616048,
+      "dc": -0.000001489729669030805,
+      "bytes": 24742,
+      "sha256": "df2fd14edda7d1779fe442be1a079ec86c769403e4ca8d767cc47d199fcd5326",
+      "recipe": {
+        "name": "二音のピポン",
+        "wave": "triangle",
+        "curve": [
+          1046,
+          1568,
+          1568
+        ],
+        "duration": 0.28,
+        "quantize": 2,
+        "pulses": 2,
+        "bell": 0.2
+      }
+    },
+    {
+      "id": "start-06",
+      "kind": "start",
+      "name": "明るいティン",
+      "file": "start-06.wav",
+      "seconds": 0.24,
+      "peak": 0.550000011920929,
+      "rms": 0.09180568421395591,
+      "dc": 0.0000034048596776526545,
+      "bytes": 21212,
+      "sha256": "c1e116c01dd27c9ba94854852a2ff849149c6e4fcdb7bc65bd417f5ab9bcdd67",
+      "recipe": {
+        "name": "明るいティン",
+        "wave": "sine",
+        "curve": [
+          2093,
+          2093,
+          2093
+        ],
+        "duration": 0.24,
+        "bell": 1.1,
+        "decay": 18
+      }
+    },
+    {
+      "id": "start-07",
+      "kind": "start",
+      "name": "低めのパン",
+      "file": "start-07.wav",
+      "seconds": 0.15,
+      "peak": 0.4668804705142975,
+      "rms": 0.18982409546122408,
+      "dc": -0.0004718211441606609,
+      "bytes": 13274,
+      "sha256": "71ad4df7c0c550d03b1b1f1918b74c79bccaf6b39eff1cd09ae4bfac05733c5f",
+      "recipe": {
+        "name": "低めのパン",
+        "wave": "pulse",
+        "curve": [
+          440,
+          660,
+          660
+        ],
+        "duration": 0.15,
+        "duty": 0.4,
+        "noise": 0.08,
+        "decay": 14
+      }
+    },
+    {
+      "id": "start-08",
+      "kind": "start",
+      "name": "軽いプン",
+      "file": "start-08.wav",
+      "seconds": 0.13,
+      "peak": 0.4591812789440155,
+      "rms": 0.189796765549805,
+      "dc": -0.0001776249663705774,
+      "bytes": 11510,
+      "sha256": "f80b96714ff4624454fa276b2b11279a7c02489cd6405573b0e77607f9543786",
+      "recipe": {
+        "name": "軽いプン",
+        "wave": "sine",
+        "curve": [
+          520,
+          1040,
+          1040
+        ],
+        "duration": 0.13,
+        "fm": 0.7,
+        "ratio": 2,
+        "decay": 15
+      }
+    },
+    {
+      "id": "start-09",
+      "kind": "start",
+      "name": "三音のスタート",
+      "file": "start-09.wav",
+      "seconds": 0.36,
+      "peak": 0.550000011920929,
+      "rms": 0.15135920934831093,
+      "dc": -0.00006911199453644312,
+      "bytes": 31796,
+      "sha256": "084b032639be06ba427d59f3bb5ecaf1be6beda6effc11266ff1c4df59ccebb2",
+      "recipe": {
+        "name": "三音のスタート",
+        "wave": "pulse",
+        "curve": [
+          784,
+          988,
+          1568
+        ],
+        "duration": 0.36,
+        "quantize": 3,
+        "pulses": 3,
+        "duty": 0.3,
+        "soft": 0.35
+      }
+    },
+    {
+      "id": "start-10",
+      "kind": "start",
+      "name": "やさしいピン",
+      "file": "start-10.wav",
+      "seconds": 0.3,
+      "peak": 0.550000011920929,
+      "rms": 0.1175381053699934,
+      "dc": -0.000009892001101546257,
+      "bytes": 26504,
+      "sha256": "42451cb533bf30aea17d888599f839c3ace73bd87fd7b7c70ba8883e47161e20",
+      "recipe": {
+        "name": "やさしいピン",
+        "wave": "triangle",
+        "curve": [
+          1175,
+          1175,
+          1175
+        ],
+        "duration": 0.3,
+        "bell": 0.4,
+        "decay": 10
+      }
+    },
+    {
+      "id": "start-11",
+      "kind": "start",
+      "name": "シンセ・パァン",
+      "file": "start-11.wav",
+      "seconds": 0.22,
+      "peak": 0.550000011920929,
+      "rms": 0.15282457579678022,
+      "dc": 0.000014298985250403108,
+      "bytes": 19448,
+      "sha256": "6dd060e28959538a5a990117aecf5d5f5cb28d982188980e65565b74316e83fa",
+      "recipe": {
+        "name": "シンセ・パァン",
+        "wave": "fm",
+        "curve": [
+          740,
+          1480,
+          1480
+        ],
+        "duration": 0.22,
+        "fm": 2.3,
+        "ratio": 3,
+        "noise": 0.06,
+        "decay": 11
+      }
+    },
+    {
+      "id": "start-12",
+      "kind": "start",
+      "name": "クリスタル・リン",
+      "file": "start-12.wav",
+      "seconds": 0.49,
+      "peak": 0.550000011920929,
+      "rms": 0.08406937476708166,
+      "dc": 0.0000027224923937027045,
+      "bytes": 43262,
+      "sha256": "d12813ff04ff68834f1ef67d421ba73caebac6eb6a86ffca7f928de10496813f",
+      "recipe": {
+        "name": "クリスタル・リン",
+        "wave": "sine",
+        "curve": [
+          1568,
+          2093,
+          2093
+        ],
+        "duration": 0.4,
+        "bell": 1,
+        "echo": 0.15,
+        "decay": 10
+      }
+    },
+    {
+      "id": "start-13",
+      "kind": "start",
+      "name": "短いチン",
+      "file": "start-13.wav",
+      "seconds": 0.11,
+      "peak": 0.550000011920929,
+      "rms": 0.14004806047525967,
+      "dc": 0.00000131978236969281,
+      "bytes": 9746,
+      "sha256": "990423c4d5a3d4bc2588e91b40fd25c47d7be98b93568769bb0422550a2a0ddc",
+      "recipe": {
+        "name": "短いチン",
+        "wave": "triangle",
+        "curve": [
+          2350,
+          2350,
+          2350
+        ],
+        "duration": 0.11,
+        "bell": 0.6,
+        "decay": 20
+      }
+    },
+    {
+      "id": "start-14",
+      "kind": "start",
+      "name": "ゲーム・タタン",
+      "file": "start-14.wav",
+      "seconds": 0.25501133786848074,
+      "peak": 0.550000011920929,
+      "rms": 0.1448531859871572,
+      "dc": -0.00040933555961516013,
+      "bytes": 22536,
+      "sha256": "df36cd097a011790c8ceb179f357f2b870799dd265df0916a38d61451ba761c9",
+      "recipe": {
+        "name": "ゲーム・タタン",
+        "wave": "pulse",
+        "curve": [
+          988,
+          1318,
+          1318
+        ],
+        "duration": 0.255,
+        "quantize": 2,
+        "pulses": 2,
+        "duty": 0.22,
+        "noise": 0.05
+      }
+    },
+    {
+      "id": "start-15",
+      "kind": "start",
+      "name": "丸いピポッ",
+      "file": "start-15.wav",
+      "seconds": 0.24,
+      "peak": 0.5418586134910583,
+      "rms": 0.1899029796920077,
+      "dc": -0.00011094107301316723,
+      "bytes": 21212,
+      "sha256": "0f6b7f0f87962c7ce27ec5a09a4af0b896756c6728b19d03507980af2991f473",
+      "recipe": {
+        "name": "丸いピポッ",
+        "wave": "fm",
+        "curve": [
+          660,
+          1320,
+          990
+        ],
+        "duration": 0.24,
+        "fm": 1.1,
+        "ratio": 1.5,
+        "quantize": 3
+      }
+    }
+  ]
+}

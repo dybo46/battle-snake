@@ -1,0 +1,25 @@
+services:
+  game:
+    image: node:24-alpine
+    working_dir: /app
+    command: ["node", "server.mjs"]
+    user: "1000:1000"
+    environment:
+      HOST: "0.0.0.0"
+      PORT: "8789"
+      NODE_ENV: production
+    volumes:
+      - "${PROJECT_DIR:-.}:/app:ro"
+    ports:
+      - "${BIND_ADDRESS:-127.0.0.1}:${GAME_PORT:-8789}:8789"
+    restart: unless-stopped
+    cpus: 2
+    mem_limit: 512m
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"

@@ -1,0 +1,1 @@
+import {PERSONALITIES} from './cpu.js';for(const p of PERSONALITIES){const a=document.createElement('article'),h=document.createElement('h3'),t=document.createElement('p');h.textContent=p.name;t.textContent=p.description;a.append(h,t);document.querySelector('#aiList').append(a);}

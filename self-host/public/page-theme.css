@@ -1,0 +1,51 @@
+:root[data-page-theme=light]{color-scheme:light}
+/* Page colors match the Othello/Gomoku shell. Canvas artwork is independent. */
+:root[data-page-theme=dark]{color-scheme:dark;color:#e9eeeb;background:#0c1416;--line:#2a4247;--muted:#94aeb0;--teal:#71debe}
+:root[data-page-theme=dark] body{background:radial-gradient(ellipse at 50% 0,#1d3337 0,transparent 55%),#0c1416;min-height:100vh}
+:root[data-page-theme=dark] .site-header{background:#102023;border-color:#2a4247}
+:root[data-page-theme=dark] .brand small,:root[data-page-theme=dark] .eyebrow{color:#87b3b2}
+:root[data-page-theme=dark] button,:root[data-page-theme=dark] input,:root[data-page-theme=dark] select{background:#17272b;color:#edf5f3;border-color:#3a5156}
+:root[data-page-theme=dark] button:hover{background:#29454a;border-color:#90b5b7;filter:none}
+:root[data-page-theme=dark] button:focus-visible,:root[data-page-theme=dark] input:focus-visible,:root[data-page-theme=dark] select:focus-visible,:root[data-page-theme=dark] summary:focus-visible{outline-color:#87e4d0}
+:root[data-page-theme=dark] input::placeholder{color:#91a9ab;opacity:1}
+:root[data-page-theme=dark] input[type=range],:root[data-page-theme=dark] input[type=checkbox]{accent-color:#82d9bf}
+:root[data-page-theme=dark] .primary{background:#b9e9d7;color:#102923;border-color:#c7f9e8}
+:root[data-page-theme=dark] .primary:hover{background:#e0fff1}
+:root[data-page-theme=dark] .quiet,:root[data-page-theme=dark] .site-header .quiet{background:transparent;color:#b8cdce;border-color:#3a5156}
+:root[data-page-theme=dark] .secondary{background:#20373b;color:#c5e4df;border-color:#45605f}
+:root[data-page-theme=dark] .panel{background:linear-gradient(130deg,#192b2fdf,#102023e8);border-color:#2a4247;box-shadow:0 8px 24px #0002}
+:root[data-page-theme=dark] .room-panel .welcome .panel-heading{background:#17282c}
+:root[data-page-theme=dark] .connection,:root[data-page-theme=dark] .round-label>span{background:#1c3437;color:#b9e9d7}
+:root[data-page-theme=dark] .round-label>b,:root[data-page-theme=dark] .panel label,:root[data-page-theme=dark] .room-panel label{color:#b8cdce}
+:root[data-page-theme=dark] .round-label strong{color:#e9eeeb}
+:root[data-page-theme=dark] .jump-badge{background:#25464b;color:#e2f7ee;border:1px solid #45665f}
+:root[data-page-theme=dark] .jump-badge.boost{background:#66522e;border-color:#b29756}
+:root[data-page-theme=dark] .score-card{background:#14262a;border-color:#2a4247;border-top-color:var(--player)}
+:root[data-page-theme=dark] .score-card.me{background:#1c3739;border-color:#568b83;border-top-color:var(--player)}
+:root[data-page-theme=dark] .score-name small{color:#9ab1ae}
+:root[data-page-theme=dark] .star{color:#435056}
+:root[data-page-theme=dark] .star.on,:root[data-page-theme=dark] .match-point{color:#e3c37f}
+:root[data-page-theme=dark] .arena-frame{box-shadow:0 6px 24px #0005,0 0 0 1px #3b5557}
+:root[data-page-theme=dark] .overlay>div,:root[data-page-theme=dark] .overlay.countdown>div{background:#102023eb;border-color:#45605f;box-shadow:0 10px 40px #0004}
+:root[data-page-theme=dark] .overlay h2{color:#e9f5ee}
+:root[data-page-theme=dark] .overlay small{color:#9cc8bc}
+:root[data-page-theme=dark] .overlay p{color:#b2c9c5}
+:root[data-page-theme=dark] .hint,:root[data-page-theme=dark] .room-panel .hint,:root[data-page-theme=dark] .section-title p,:root[data-page-theme=dark] .control-strip,:root[data-page-theme=dark] .game-footnote,:root[data-page-theme=dark] .capture-status,:root[data-page-theme=dark] footer,:root[data-page-theme=dark] .panel-heading>span,:root[data-page-theme=dark] .sound-current{color:#94aeb0}
+:root[data-page-theme=dark] .capture-status.captured,:root[data-page-theme=dark] output{color:#89dfc6}
+:root[data-page-theme=dark] .extra-settings summary,:root[data-page-theme=dark] .panel summary>span{color:#a8c1bf}
+:root[data-page-theme=dark] .roster li,:root[data-page-theme=dark] .chat-messages,:root[data-page-theme=dark] #cpuProfiles>.field-row{background:#132428}
+:root[data-page-theme=dark] .roster .num,:root[data-page-theme=dark] .roster .state{color:#95adac}
+:root[data-page-theme=dark] .roster .state.ready{color:#e3c37f}
+:root[data-page-theme=dark] .chat-messages b{color:#9bdbc7}
+:root[data-page-theme=dark] .ready-button{background:#2d3f39;color:#cad9c6;border-color:#52685c}
+:root[data-page-theme=dark] .ready-button[aria-pressed=true]{background:#d9b775;color:#20271e}
+:root[data-page-theme=dark] .notice{background:#1c3d32;color:#c9f2d7;border-color:#4c7d64}
+:root[data-page-theme=dark] .skin-card,:root[data-page-theme=dark] .background-card,:root[data-page-theme=dark] .sound-card{background:#14262a;color:#d9e9e2;border-color:#344d51}
+:root[data-page-theme=dark] .skin-card[aria-pressed=true]{border-color:#71debe;box-shadow:0 0 0 2px #71debe33}
+:root[data-page-theme=dark] .background-card[aria-pressed=true]{outline-color:#71debe}
+:root[data-page-theme=dark] .skin-card small,:root[data-page-theme=dark] .sound-section h2 small{color:#94aeb0}
+:root[data-page-theme=dark] .footstep-settings{background:#182d2c}
+:root[data-page-theme=dark] .sound-master,:root[data-page-theme=dark] .footstep-settings label,:root[data-page-theme=dark] .sound-card label,:root[data-page-theme=dark] .howto b{color:#b8cdce}
+:root[data-page-theme=dark] .howto p{color:#94aeb0}
+:root[data-page-theme=dark] kbd{background:#17272b;color:#b8cdce;border-color:#3a5156}
+:root[data-page-theme=dark] .skin-section,:root[data-page-theme=dark] .sound-section{border-color:#2a4247}

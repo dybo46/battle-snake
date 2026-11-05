@@ -1,0 +1,1 @@
+.room-panel{grid-template-rows:auto minmax(0,1fr)!important}.room-panel>.practice-panel{grid-row:1}.room-panel>.sidebar-settings{grid-row:2}.practice-panel .practice.match-actions{grid-template-columns:2fr 1fr 1fr}.practice.match-actions #practice{grid-column:auto}.practice-panel{margin:0}.room-top{display:none}
