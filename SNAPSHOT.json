@@ -8,5 +8,15 @@
   "backgrounds": 81,
   "sounds": 60,
   "personalities": 15,
-  "screenshotsCreated": 0
+  "screenshotsCreated": 0,
+  "verification": {
+    "selfHostTests": 113,
+    "publicTests": 6,
+    "browserErrors": 0,
+    "localReport": "record/demo-check-v3.1.json",
+    "liveReport": "record/live-pages-v3.1.json",
+    "gameAPICalls": 0
+  },
+  "repository": "https://github.com/dybo46/battle-snake",
+  "pages": "https://dybo46.github.io/battle-snake/"
 }
